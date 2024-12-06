@@ -1,0 +1,11 @@
+node_modules/
+
+reports/
+
+artifacts/
+
+allure-report/
+
+.DS_Store
+
+src/support/model/pretrained-model/weights.bin
