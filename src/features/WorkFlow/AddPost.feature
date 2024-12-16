@@ -1,2 +1,2 @@
-@AddPost @wip
+@AddPost @wip @smoke
 Feature: Add Post
