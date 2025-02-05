@@ -14,7 +14,7 @@
     "cucumber:staging": "cross-env ENV=staging cucumber-js --config cucumber.mjs --format cucumber-console-formatter --require 'src/steps/**/*.ts'",
     "build": "npx tsc",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
-    "codegen": "playwright codegen"
+    "generate:feature": "ts-node src/scripts/generateFeature.ts"
   },
   "engines": {
     "node": ">=20.0.0"
@@ -32,6 +32,8 @@
     "cucumber-console-formatter": "1.0.0",
     "cucumber-html-formatter": "3.1.0",
     "cucumber-pretty": "6.0.1",
+    "inquirer": "^12.4.1",
+    "openai": "^4.83.0",
     "pixelmatch": "5.3.0",
     "playwright": "1.48.2",
     "pngjs": "6.0.0"
