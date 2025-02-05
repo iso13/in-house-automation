@@ -1,4 +1,4 @@
-@ValidateAccessibility
+@ValidateAccessibility @wip
 Feature: Validate Accessibility
   As a user
   I want the application to be accessible,
