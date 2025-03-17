@@ -14,5 +14,8 @@ export default defineConfig({
         // Set navigation and action timeouts
         navigationTimeout: 15000, // Set navigation timeout to 15 seconds
         actionTimeout: 10000, // Set action timeout to 10 seconds
+
+        // Enable tracing
+        trace: 'on-first-retry', // Options: 'on', 'retain-on-failure', 'on-first-retry', 'off'
     }
 });
