@@ -21,11 +21,11 @@
   },
   "dependencies": {
     "@axe-core/playwright": "^4.10.1",
-    "@cucumber/cucumber": "11.0.1",
+    "@cucumber/cucumber": "^11.2.0",
     "@cucumber/html-formatter": "21.7.0",
     "@cucumber/messages": "27.0.0",
     "@cucumber/pretty-formatter": "1.0.1",
-    "@playwright/test": "1.48.2",
+    "@playwright/test": "^1.48.2",
     "@tensorflow/tfjs": "4.22.0",
     "@tensorflow/tfjs-node": "4.22.0",
     "@types/k6": "0.54.1",
@@ -35,7 +35,6 @@
     "inquirer": "^12.4.1",
     "openai": "^4.83.0",
     "pixelmatch": "5.3.0",
-    "playwright": "1.48.2",
     "pngjs": "6.0.0"
   },
   "devDependencies": {
